@@ -9,6 +9,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="icon" type="image/x-icon" href="./img/logo.png" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Teste Estagio VFlows</title>
   </head>
@@ -25,82 +26,102 @@
           <div class="inputs-container">
             <div class="d-flex flex-column large-input">
               <span>Razão Social</span>
-              <input class="input-form" type="text" required />
+              <input
+                id="razao-social"
+                class="input-form"
+                type="text"
+                required
+              />
             </div>
             <div class="d-flex flex-column short-input">
               <span>CNPJ</span>
-              <input class="input-form" type="text" required />
+              <input id="cnpj" class="input-form" type="number" required />
             </div>
           </div>
           <div class="inputs-container">
             <div class="d-flex flex-column large-input">
               <span>Nome Fantasia</span>
-              <input class="input-form" type="text" required />
+              <input
+                id="nome-fantasia"
+                class="input-form"
+                type="text"
+                required
+              />
             </div>
             <div class="d-flex flex-column short-input">
               <span>Inscrição Estadual</span>
-              <input class="input-form" type="text" required />
+              <input
+                id="inscriçao-estadual"
+                class="input-form"
+                type="text"
+                required
+              />
             </div>
           </div>
 
           <div class="inputs-container">
             <div class="d-flex flex-column short-input-2">
               <span>CEP</span>
-              <input class="input-form" type="text" required />
+              <input id="cep" class="input-form" type="number" required />
             </div>
             <div class="d-flex flex-column short-input">
               <span>Inscrição Municipal</span>
-              <input class="input-form" type="text" required />
+              <input
+                id="inscriçao-municipal"
+                class="input-form"
+                type="text"
+                required
+              />
             </div>
           </div>
 
           <div class="inputs-container">
             <div class="d-flex flex-column large-input">
               <span>Endereço</span>
-              <input class="input-form" type="text" required />
+              <input id="endereço" class="input-form" type="text" required />
             </div>
             <div class="d-flex flex-column short-input">
               <span>Número</span>
-              <input class="input-form" type="text" required />
+              <input id="numero" class="input-form" type="number" required />
             </div>
           </div>
 
           <div class="inputs-container">
             <div class="d-flex flex-column large-input-2">
               <span>Complemento</span>
-              <input class="input-form" type="text" required />
+              <input id="complemento" class="input-form" type="text" required />
             </div>
           </div>
 
           <div class="inputs-container">
             <div class="d-flex flex-column short-input-3">
               <span>Bairro</span>
-              <input class="input-form" type="text" required />
+              <input id="bairro" class="input-form" type="text" required />
             </div>
             <div class="d-flex flex-column short-input-3">
               <span>Municipio</span>
-              <input class="input-form" type="text" required />
+              <input id="municipio" class="input-form" type="text" required />
             </div>
 
             <div class="d-flex flex-column short-input-3">
               <span>Estado</span>
-              <input class="input-form" type="text" required />
+              <input id="estado" class="input-form" type="text" required />
             </div>
           </div>
 
           <div class="inputs-container">
             <div class="d-flex flex-column large-input-3">
               <span>Nome da Pessoa de Contato</span>
-              <input class="input-form" type="text" required />
+              <input id="nome-pessoa" class="input-form" type="text" required />
             </div>
             <div class="d-flex flex-column short-input-3">
               <span>Telefone</span>
-              <input class="input-form" type="text" required />
+              <input id="telefone" class="input-form" type="number" required />
             </div>
 
             <div class="d-flex flex-column short-input-3">
               <span>E-mail</span>
-              <input class="input-form" type="text" required />
+              <input id="email" class="input-form" type="text" required />
             </div>
           </div>
         </form>
@@ -154,19 +175,19 @@
                 <div class="product-divs-inputs">
                   <div class="product-div product">
                     <span>UND.Medida</span>
-                    <input class="product-input" type="text" />
+                    <input class="product-input" type="number" />
                   </div>
                   <div class="product-div product">
                     <span>QDTDE. em Estoque</span>
-                    <input class="product-input" type="text" />
+                    <input class="product-input" type="number" />
                   </div>
                   <div class="product-div product">
                     <span>Valor Unitário</span>
-                    <input class="product-input" type="text" />
+                    <input class="product-input" type="number" />
                   </div>
                   <div class="product-div product">
                     <span>Valor Total</span>
-                    <input class="product-input" disabled type="text" />
+                    <input class="product-input" disabled type="number" />
                   </div>
                 </div>
               </div>
@@ -351,6 +372,8 @@
           <input id="file" class="input-file" type="file" />
         </form>
       </div>
+
+      <button class="btn-add">Salvar Fornecedor</button>
     </div>
 
     <!-----------------  BODY ----------------->
