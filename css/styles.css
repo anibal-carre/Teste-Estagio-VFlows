@@ -3,3 +3,267 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container-app {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 30px 0 10px;
+}
+
+.form-container {
+  width: 1200px;
+  max-width: 1200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#form-app {
+  width: 100%;
+  height: 600px;
+  padding: 0 14px 14px 14px;
+}
+
+.inputs-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.form-title {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.large-input {
+  width: 70%;
+}
+
+.large-input-2 {
+  width: 100%;
+}
+
+.large-input-3 {
+  width: 40%;
+}
+
+.short-input {
+  width: 30%;
+}
+
+.short-input-2 {
+  width: 40%;
+}
+
+.short-input-3 {
+  width: 32%;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.inputs-container span {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+/*------ PRODUTOS -------*/
+
+#form-app-2 {
+  width: 100%;
+  height: auto;
+  padding: 0 14px 14px 14px;
+}
+
+.product-card {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.trash-icon-div {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px 20px;
+}
+
+.product-icon-div {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.product-icon {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.product-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-divs-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.product-inputs {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-add {
+  width: 95%;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-add:hover {
+  background-color: greenyellow;
+}
+
+/* input file */
+
+#form-app-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-file-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.input-file-trigger {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.input-file-trigger:hover {
+  background-color: greenyellow;
+}
+
+.input-file {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.file-card-div {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.flie-card {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.eye-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+}
