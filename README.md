@@ -42,6 +42,10 @@ Este é um projeto desenvolvido como parte de um teste de estágio em programaç
 
 Se desejar contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir problemas, sugerir melhorias ou enviar pull requests. Sua colaboração é bem-vinda!
 
+## Deploy
+
+https://teste-estagio-v-flows.vercel.app/
+
 ## Autor
 
 Anibal David Carreño Alvarez
@@ -49,5 +53,5 @@ anibaldavidcarrenoalvarez@gmail.com
 
 ---
 
-**Observação:** Este projeto é parte de um teste de estágio em programação e pode ser aprimorado para atender a requisitos específicos ou padrões de qualidade adicionais.
+
 
